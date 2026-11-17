@@ -1,0 +1,14 @@
+# Versions used for the paper (Python 3.12-3.14). Install PyTorch with CUDA for your driver first:
+#   https://pytorch.org/get-started/locally/
+torch==2.15.0
+torchvision==0.29.2
+monai==1.6.1
+timm==1.0.30
+nibabel==5.4.2
+numpy
+pillow
+scipy
+tqdm
+# optional
+wandb          # experiment logging (training runs use --no_wandb otherwise)
+modal          # only for scripts/modal_fair.py (cloud GPUs)

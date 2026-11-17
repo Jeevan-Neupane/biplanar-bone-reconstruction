@@ -1,0 +1,15 @@
+# data and outputs (not part of the repository)
+datasets/
+saved_models/
+logs/
+wandb/
+*.pth
+*.pt
+*.nii
+*.nii.gz
+*.zip
+*.tar
+.env
+__pycache__/
+*.pyc
+my_results/

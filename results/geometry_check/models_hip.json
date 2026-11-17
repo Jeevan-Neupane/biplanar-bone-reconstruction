@@ -1,0 +1,52 @@
+{
+ "models": {
+  "dualviewcnn": {
+   "ap": {
+    "corr_D": 0.034,
+    "corr_W": 1.0,
+    "shift_D": 0.006,
+    "shift_W": 0.217,
+    "ok": true
+   },
+   "lat": {
+    "corr_D": 1.0,
+    "corr_W": -0.016,
+    "shift_D": 0.217,
+    "shift_W": 0.002,
+    "ok": true
+   }
+  },
+  "swinx2s": {
+   "ap": {
+    "corr_D": 0.002,
+    "corr_W": 1.0,
+    "shift_D": 0.0,
+    "shift_W": 0.214,
+    "ok": true
+   },
+   "lat": {
+    "corr_D": 1.0,
+    "corr_W": -0.123,
+    "shift_D": 0.196,
+    "shift_W": 0.003,
+    "ok": true
+   }
+  },
+  "multiscale_dualviewcnn": {
+   "ap": {
+    "corr_D": 0.418,
+    "corr_W": 0.989,
+    "shift_D": 0.007,
+    "shift_W": 0.088,
+    "ok": true
+   },
+   "lat": {
+    "corr_D": 0.994,
+    "corr_W": -0.515,
+    "shift_D": 0.132,
+    "shift_W": 0.004,
+    "ok": true
+   }
+  }
+ }
+}
